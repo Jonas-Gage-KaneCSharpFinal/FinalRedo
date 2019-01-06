@@ -16,7 +16,7 @@ namespace cSharpFinalFix
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new WarCardGame());
+            Application.Run(new Form1());
         }
     }
 }

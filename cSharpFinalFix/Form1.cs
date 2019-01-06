@@ -7,18 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Media;
 namespace cSharpFinalFix
 {
-    public partial class WarCardGame : Form
+    public partial class Form1 : Form
     {
-        public WarCardGame()
+        int score = 0;
+        public Form1()
         {
             InitializeComponent();
         }
 
         private void btnDraw_Click(object sender, EventArgs e)
         {
+            SoundPlayer splayer = new SoundPlayer(cSharpFinalFix.Properties.Resources.Clashing);
+            splayer.Play();
 
         }
     }

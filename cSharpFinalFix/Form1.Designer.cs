@@ -1,6 +1,6 @@
 ﻿namespace cSharpFinalFix
 {
-    partial class WarCardGame
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -90,7 +90,7 @@
             this.ptcBoxBlueTeam.TabIndex = 5;
             this.ptcBoxBlueTeam.TabStop = false;
             // 
-            // WarCardGame
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -101,7 +101,7 @@
             this.Controls.Add(lblScoreCount);
             this.Controls.Add(this.btnDraw);
             this.Controls.Add(this.lblScore);
-            this.Name = "WarCardGame";
+            this.Name = "Form1";
             this.Text = "War";
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxRedTeam)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxBlueTeam)).EndInit();
