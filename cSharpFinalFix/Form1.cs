@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+
 namespace cSharpFinalFix
 {
     public partial class Form1 : Form
@@ -18,11 +19,12 @@ namespace cSharpFinalFix
             InitializeComponent();
         }
 
-        private void btnDraw_Click(object sender, EventArgs e)
+        public void btnDraw_Click(object sender, EventArgs e)
         {
             SoundPlayer splayer = new SoundPlayer(cSharpFinalFix.Properties.Resources.Clashing);
             splayer.Play();
-
         }
+
+       
     }
 }
