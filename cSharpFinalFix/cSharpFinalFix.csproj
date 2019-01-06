@@ -95,5 +95,161 @@
   <ItemGroup>
     <None Include="Resources\Clashing.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2nd of clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2nd of diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2nd of hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2nd of spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3rd of diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3rd of hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3rd of spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 club.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 of diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 of hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 of spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 club.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 of diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 of hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 of spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 club.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 of diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 of hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 of spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 of diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 of hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 of spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 of diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 of hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 of spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 of diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 of hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 of spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 of diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 of hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 of spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ace of clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ace of diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ace of hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ace of spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jack of clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jack of diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jack of hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jack of spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\king of clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\king of diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\king of hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\king of spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\queen of clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\queen of diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\queen of hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\queen of spades.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
