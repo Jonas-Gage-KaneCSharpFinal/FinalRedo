@@ -28,23 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.Label lblScoreCount;
             this.lblScore = new System.Windows.Forms.Label();
             this.btnDraw = new System.Windows.Forms.Button();
             this.ptcBoxRedTeam = new System.Windows.Forms.PictureBox();
             this.ptcBoxBlueTeam = new System.Windows.Forms.PictureBox();
-            lblScoreCount = new System.Windows.Forms.Label();
+            this.lblCount = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxRedTeam)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxBlueTeam)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lblScoreCount
-            // 
-            lblScoreCount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            lblScoreCount.Location = new System.Drawing.Point(104, 9);
-            lblScoreCount.Name = "lblScoreCount";
-            lblScoreCount.Size = new System.Drawing.Size(36, 33);
-            lblScoreCount.TabIndex = 2;
             // 
             // lblScore
             // 
@@ -90,6 +81,17 @@
             this.ptcBoxBlueTeam.TabIndex = 5;
             this.ptcBoxBlueTeam.TabStop = false;
             // 
+            // lblCount
+            // 
+            this.lblCount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblCount.Font = new System.Drawing.Font("NASDAQER", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblCount.Location = new System.Drawing.Point(105, 9);
+            this.lblCount.Name = "lblCount";
+            this.lblCount.Size = new System.Drawing.Size(46, 33);
+            this.lblCount.TabIndex = 6;
+            this.lblCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -97,9 +99,9 @@
             this.BackgroundImage = global::cSharpFinalFix.Properties.Resources.WarImage;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(622, 469);
+            this.Controls.Add(this.lblCount);
             this.Controls.Add(this.ptcBoxBlueTeam);
             this.Controls.Add(this.ptcBoxRedTeam);
-            this.Controls.Add(lblScoreCount);
             this.Controls.Add(this.btnDraw);
             this.Controls.Add(this.lblScore);
             this.Name = "Form1";
@@ -116,6 +118,7 @@
         private System.Windows.Forms.Button btnDraw;
         private System.Windows.Forms.PictureBox ptcBoxRedTeam;
         private System.Windows.Forms.PictureBox ptcBoxBlueTeam;
+        private System.Windows.Forms.Label lblCount;
     }
 }
 
