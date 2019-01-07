@@ -33,15 +33,19 @@
             this.ptcBoxRedTeam = new System.Windows.Forms.PictureBox();
             this.ptcBoxBlueTeam = new System.Windows.Forms.PictureBox();
             this.lblCount = new System.Windows.Forms.Label();
+            this.pbHumanCard = new System.Windows.Forms.PictureBox();
+            this.pbRobotCard = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxRedTeam)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxBlueTeam)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHumanCard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbRobotCard)).BeginInit();
             this.SuspendLayout();
             // 
             // lblScore
             // 
             this.lblScore.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblScore.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.lblScore.Font = new System.Drawing.Font("NASDAQER", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore.Location = new System.Drawing.Point(12, 9);
             this.lblScore.Name = "lblScore";
             this.lblScore.Size = new System.Drawing.Size(86, 33);
@@ -52,7 +56,7 @@
             // 
             this.btnDraw.BackgroundImage = global::cSharpFinalFix.Properties.Resources.swords_312440_960_720;
             this.btnDraw.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnDraw.Font = new System.Drawing.Font("NASDAQER", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDraw.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDraw.Location = new System.Drawing.Point(220, 338);
             this.btnDraw.Name = "btnDraw";
             this.btnDraw.Size = new System.Drawing.Size(179, 94);
@@ -84,13 +88,32 @@
             // lblCount
             // 
             this.lblCount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblCount.Font = new System.Drawing.Font("NASDAQER", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblCount.Location = new System.Drawing.Point(105, 9);
             this.lblCount.Name = "lblCount";
             this.lblCount.Size = new System.Drawing.Size(46, 33);
             this.lblCount.TabIndex = 6;
             this.lblCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pbHumanCard
+            // 
+            this.pbHumanCard.Location = new System.Drawing.Point(104, 63);
+            this.pbHumanCard.Name = "pbHumanCard";
+            this.pbHumanCard.Size = new System.Drawing.Size(198, 269);
+            this.pbHumanCard.TabIndex = 7;
+            this.pbHumanCard.TabStop = false;
+            this.pbHumanCard.Visible = false;
+            // 
+            // pbRobotCard
+            // 
+            this.pbRobotCard.BackColor = System.Drawing.Color.White;
+            this.pbRobotCard.Location = new System.Drawing.Point(324, 63);
+            this.pbRobotCard.Name = "pbRobotCard";
+            this.pbRobotCard.Size = new System.Drawing.Size(198, 269);
+            this.pbRobotCard.TabIndex = 8;
+            this.pbRobotCard.TabStop = false;
+            this.pbRobotCard.Visible = false;
             // 
             // Form1
             // 
@@ -99,6 +122,8 @@
             this.BackgroundImage = global::cSharpFinalFix.Properties.Resources.WarImage;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(622, 469);
+            this.Controls.Add(this.pbRobotCard);
+            this.Controls.Add(this.pbHumanCard);
             this.Controls.Add(this.lblCount);
             this.Controls.Add(this.ptcBoxBlueTeam);
             this.Controls.Add(this.ptcBoxRedTeam);
@@ -108,6 +133,8 @@
             this.Text = "War";
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxRedTeam)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxBlueTeam)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHumanCard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbRobotCard)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -119,6 +146,8 @@
         private System.Windows.Forms.PictureBox ptcBoxRedTeam;
         private System.Windows.Forms.PictureBox ptcBoxBlueTeam;
         private System.Windows.Forms.Label lblCount;
+        private System.Windows.Forms.PictureBox pbHumanCard;
+        private System.Windows.Forms.PictureBox pbRobotCard;
     }
 }
 
