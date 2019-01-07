@@ -35,7 +35,7 @@ namespace cSharpFinalFix
             int num1 = rand.Next(playersCards.Length);
             Random rnd = new Random();//rnd#gen for pc
             int num2 = rand.Next(pcCards.Length);
-            lblCount.Text = "" + score;
+            lblCount.Text = "" + num1 + " " + num2;
 
             if (num1 > num2)//PlayerWin
             {
@@ -79,7 +79,7 @@ namespace cSharpFinalFix
         
             
         }
-            
-       
+
+      
     }
 }

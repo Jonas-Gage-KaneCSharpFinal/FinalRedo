@@ -41,7 +41,7 @@
             // 
             this.lblScore.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblScore.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.lblScore.Font = new System.Drawing.Font("NASDAQER", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore.Location = new System.Drawing.Point(12, 9);
             this.lblScore.Name = "lblScore";
             this.lblScore.Size = new System.Drawing.Size(86, 33);
@@ -52,7 +52,7 @@
             // 
             this.btnDraw.BackgroundImage = global::cSharpFinalFix.Properties.Resources.swords_312440_960_720;
             this.btnDraw.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnDraw.Font = new System.Drawing.Font("NASDAQER", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDraw.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDraw.Location = new System.Drawing.Point(220, 338);
             this.btnDraw.Name = "btnDraw";
             this.btnDraw.Size = new System.Drawing.Size(179, 94);
@@ -84,11 +84,11 @@
             // lblCount
             // 
             this.lblCount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblCount.Font = new System.Drawing.Font("NASDAQER", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblCount.Location = new System.Drawing.Point(105, 9);
             this.lblCount.Name = "lblCount";
-            this.lblCount.Size = new System.Drawing.Size(46, 33);
+            this.lblCount.Size = new System.Drawing.Size(155, 33);
             this.lblCount.TabIndex = 6;
             this.lblCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
