@@ -33,12 +33,20 @@
             this.ptcBoxRedTeam = new System.Windows.Forms.PictureBox();
             this.ptcBoxBlueTeam = new System.Windows.Forms.PictureBox();
             this.lblCount = new System.Windows.Forms.Label();
-            this.pbHumanCard = new System.Windows.Forms.PictureBox();
             this.pbRobotCard = new System.Windows.Forms.PictureBox();
+            this.pbHumanCard = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxRedTeam)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxBlueTeam)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbHumanCard)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbRobotCard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHumanCard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // lblScore
@@ -96,15 +104,6 @@
             this.lblCount.TabIndex = 6;
             this.lblCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pbHumanCard
-            // 
-            this.pbHumanCard.Location = new System.Drawing.Point(104, 63);
-            this.pbHumanCard.Name = "pbHumanCard";
-            this.pbHumanCard.Size = new System.Drawing.Size(198, 269);
-            this.pbHumanCard.TabIndex = 7;
-            this.pbHumanCard.TabStop = false;
-            this.pbHumanCard.Visible = false;
-            // 
             // pbRobotCard
             // 
             this.pbRobotCard.BackColor = System.Drawing.Color.White;
@@ -115,6 +114,51 @@
             this.pbRobotCard.TabStop = false;
             this.pbRobotCard.Visible = false;
             // 
+            // pbHumanCard
+            // 
+            this.pbHumanCard.Location = new System.Drawing.Point(105, 63);
+            this.pbHumanCard.Name = "pbHumanCard";
+            this.pbHumanCard.Size = new System.Drawing.Size(198, 269);
+            this.pbHumanCard.TabIndex = 7;
+            this.pbHumanCard.TabStop = false;
+            this.pbHumanCard.Visible = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(212, 100);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(198, 269);
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(220, 108);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(198, 269);
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(228, 116);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(198, 269);
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Visible = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Location = new System.Drawing.Point(236, 124);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(198, 269);
+            this.pictureBox4.TabIndex = 12;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -122,6 +166,10 @@
             this.BackgroundImage = global::cSharpFinalFix.Properties.Resources.WarImage;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(622, 469);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pbRobotCard);
             this.Controls.Add(this.pbHumanCard);
             this.Controls.Add(this.lblCount);
@@ -130,11 +178,15 @@
             this.Controls.Add(this.btnDraw);
             this.Controls.Add(this.lblScore);
             this.Name = "Form1";
-            this.Text = "War";
+            this.Text = " ";
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxRedTeam)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxBlueTeam)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbHumanCard)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbRobotCard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHumanCard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -146,8 +198,12 @@
         private System.Windows.Forms.PictureBox ptcBoxRedTeam;
         private System.Windows.Forms.PictureBox ptcBoxBlueTeam;
         private System.Windows.Forms.Label lblCount;
-        private System.Windows.Forms.PictureBox pbHumanCard;
         private System.Windows.Forms.PictureBox pbRobotCard;
+        private System.Windows.Forms.PictureBox pbHumanCard;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
 
