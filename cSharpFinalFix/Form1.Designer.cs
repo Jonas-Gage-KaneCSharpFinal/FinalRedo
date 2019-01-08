@@ -33,6 +33,7 @@
             this.ptcBoxRedTeam = new System.Windows.Forms.PictureBox();
             this.ptcBoxBlueTeam = new System.Windows.Forms.PictureBox();
             this.lblCount = new System.Windows.Forms.Label();
+            this.btnQuit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxRedTeam)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxBlueTeam)).BeginInit();
             this.SuspendLayout();
@@ -88,9 +89,23 @@
             this.lblCount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblCount.Location = new System.Drawing.Point(105, 9);
             this.lblCount.Name = "lblCount";
-            this.lblCount.Size = new System.Drawing.Size(155, 33);
+            this.lblCount.Size = new System.Drawing.Size(61, 33);
             this.lblCount.TabIndex = 6;
             this.lblCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnQuit
+            // 
+            this.btnQuit.BackgroundImage = global::cSharpFinalFix.Properties.Resources.Quit;
+            this.btnQuit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnQuit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuit.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnQuit.Location = new System.Drawing.Point(497, 9);
+            this.btnQuit.Name = "btnQuit";
+            this.btnQuit.Size = new System.Drawing.Size(113, 48);
+            this.btnQuit.TabIndex = 7;
+            this.btnQuit.Text = "Quit";
+            this.btnQuit.UseVisualStyleBackColor = true;
+            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
             // Form1
             // 
@@ -99,6 +114,7 @@
             this.BackgroundImage = global::cSharpFinalFix.Properties.Resources.WarImage;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(622, 469);
+            this.Controls.Add(this.btnQuit);
             this.Controls.Add(this.lblCount);
             this.Controls.Add(this.ptcBoxBlueTeam);
             this.Controls.Add(this.ptcBoxRedTeam);
@@ -119,6 +135,7 @@
         private System.Windows.Forms.PictureBox ptcBoxRedTeam;
         private System.Windows.Forms.PictureBox ptcBoxBlueTeam;
         private System.Windows.Forms.Label lblCount;
+        private System.Windows.Forms.Button btnQuit;
     }
 }
 
