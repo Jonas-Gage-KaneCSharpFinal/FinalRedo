@@ -27,14 +27,12 @@ namespace cSharpFinalFix
         }
         public void CardArray()//Array For card choosing
         {
-            int[] playersCards = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 };//ArrayForPlayer
-            int[] pcCards = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 };//ArraryForComputer
-            
+
 
             Random rand = new Random();//rnd#gen for player
             int num1 = rand.Next(playersCards.Length);
             Random rnd = new Random();//rnd#gen for pc
-            int num2 = rnd.Next(pcCards.Length);
+
             lblCount.Text = "" + score;
             int x = 0;
             if (num1 > num2)//PlayerWin
