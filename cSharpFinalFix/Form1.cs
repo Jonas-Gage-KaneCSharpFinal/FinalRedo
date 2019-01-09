@@ -36,15 +36,15 @@ namespace cSharpFinalFix
             Random rnd = new Random();//rnd#gen for pc
             lblCount.Text = "" + score;
 
-            if (num1 > num2)//PlayerWin
+          //  if (num1 > num2)//PlayerWin
             {
                 score++;
             }
-            if (num1 < num2)//PcWin
+           // if (num1 < num2)//PcWin
             { 
                 score--;                
             }
-            if(num1 == num2)//Tie
+            //if(num1 == num2)//Tie
             {
                 totalWar();
             }
