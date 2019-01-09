@@ -199,6 +199,7 @@
             this.lblCount.Size = new System.Drawing.Size(46, 33);
             this.lblCount.TabIndex = 6;
             this.lblCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+
             // 
             // pbRobotCard
             // 
