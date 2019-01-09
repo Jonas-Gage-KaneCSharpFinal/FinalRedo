@@ -40,7 +40,7 @@
             // 
             // lblScore
             // 
-            this.lblScore.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblScore.BackColor = System.Drawing.Color.Transparent;
             this.lblScore.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lblScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore.Location = new System.Drawing.Point(12, 9);
@@ -84,10 +84,10 @@
             // 
             // lblCount
             // 
-            this.lblCount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblCount.BackColor = System.Drawing.Color.Transparent;
             this.lblCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblCount.Location = new System.Drawing.Point(105, 9);
+            this.lblCount.Location = new System.Drawing.Point(82, 5);
             this.lblCount.Name = "lblCount";
             this.lblCount.Size = new System.Drawing.Size(61, 33);
             this.lblCount.TabIndex = 6;
