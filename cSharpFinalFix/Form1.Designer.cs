@@ -66,10 +66,10 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pic = new System.Windows.Forms.PictureBox();
+            this.picKingOfHearts = new System.Windows.Forms.PictureBox();
+            this.picKingOfDimands = new System.Windows.Forms.PictureBox();
+            this.picKingOfClubs = new System.Windows.Forms.PictureBox();
             this.picJackSpades = new System.Windows.Forms.PictureBox();
             this.picJackHearts = new System.Windows.Forms.PictureBox();
             this.picJackDiamonds = new System.Windows.Forms.PictureBox();
@@ -120,10 +120,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picKingOfHearts)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picKingOfDimands)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picKingOfClubs)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJackSpades)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJackHearts)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJackDiamonds)).BeginInit();
@@ -542,42 +542,48 @@
             this.pictureBox7.TabIndex = 39;
             this.pictureBox7.TabStop = false;
             // 
-            // pictureBox8
+            // pic
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(260, 148);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(199, 269);
-            this.pictureBox8.TabIndex = 40;
-            this.pictureBox8.TabStop = false;
+            this.pic.Location = new System.Drawing.Point(260, 148);
+            this.pic.Name = "pic";
+            this.pic.Size = new System.Drawing.Size(199, 269);
+            this.pic.TabIndex = 40;
+            this.pic.TabStop = false;
             // 
-            // pictureBox9
+            // picKingOfHearts
             // 
-            this.pictureBox9.Location = new System.Drawing.Point(268, 156);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(199, 269);
-            this.pictureBox9.TabIndex = 41;
-            this.pictureBox9.TabStop = false;
+            this.picKingOfHearts.Image = global::cSharpFinalFix.Properties.Resources.king_of_hearts;
+            this.picKingOfHearts.Location = new System.Drawing.Point(7, 45);
+            this.picKingOfHearts.Name = "picKingOfHearts";
+            this.picKingOfHearts.Size = new System.Drawing.Size(199, 269);
+            this.picKingOfHearts.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picKingOfHearts.TabIndex = 41;
+            this.picKingOfHearts.TabStop = false;
             // 
-            // pictureBox10
+            // picKingOfDimands
             // 
-            this.pictureBox10.Location = new System.Drawing.Point(276, 164);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(199, 269);
-            this.pictureBox10.TabIndex = 42;
-            this.pictureBox10.TabStop = false;
+            this.picKingOfDimands.Image = global::cSharpFinalFix.Properties.Resources.king_of_diamonds;
+            this.picKingOfDimands.Location = new System.Drawing.Point(-5, 26);
+            this.picKingOfDimands.Name = "picKingOfDimands";
+            this.picKingOfDimands.Size = new System.Drawing.Size(199, 269);
+            this.picKingOfDimands.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picKingOfDimands.TabIndex = 42;
+            this.picKingOfDimands.TabStop = false;
             // 
-            // pictureBox11
+            // picKingOfClubs
             // 
-            this.pictureBox11.Location = new System.Drawing.Point(284, 172);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(199, 269);
-            this.pictureBox11.TabIndex = 43;
-            this.pictureBox11.TabStop = false;
+            this.picKingOfClubs.Image = global::cSharpFinalFix.Properties.Resources.king_of_clubs;
+            this.picKingOfClubs.Location = new System.Drawing.Point(12, 54);
+            this.picKingOfClubs.Name = "picKingOfClubs";
+            this.picKingOfClubs.Size = new System.Drawing.Size(199, 269);
+            this.picKingOfClubs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picKingOfClubs.TabIndex = 43;
+            this.picKingOfClubs.TabStop = false;
             // 
             // picJackSpades
             // 
             this.picJackSpades.Image = global::cSharpFinalFix.Properties.Resources.jack_of_spades;
-            this.picJackSpades.Location = new System.Drawing.Point(292, 180);
+            this.picJackSpades.Location = new System.Drawing.Point(7, 45);
             this.picJackSpades.Name = "picJackSpades";
             this.picJackSpades.Size = new System.Drawing.Size(199, 269);
             this.picJackSpades.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -732,10 +738,10 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(622, 469);
             this.Controls.Add(this.picJackSpades);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.picKingOfClubs);
+            this.Controls.Add(this.picKingOfDimands);
+            this.Controls.Add(this.picKingOfHearts);
+            this.Controls.Add(this.pic);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
@@ -825,10 +831,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picKingOfHearts)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picKingOfDimands)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picKingOfClubs)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJackSpades)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJackHearts)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJackDiamonds)).EndInit();
@@ -888,10 +894,10 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pic;
+        private System.Windows.Forms.PictureBox picKingOfHearts;
+        private System.Windows.Forms.PictureBox picKingOfDimands;
+        private System.Windows.Forms.PictureBox picKingOfClubs;
         private System.Windows.Forms.PictureBox picJackSpades;
         private System.Windows.Forms.PictureBox picJackHearts;
         private System.Windows.Forms.PictureBox picJackDiamonds;
