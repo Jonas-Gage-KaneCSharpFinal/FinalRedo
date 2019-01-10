@@ -33,19 +33,12 @@ namespace cSharpFinalFix
             int num1 = rand.Next(playersCards.Length);
             Random rnd = new Random();//rnd#gen for pc
 
-            lblCount.Text = "" + score;
-           // int x = 0;
-            //if (num1 > num2)//PlayerWin
+
             {
                 
                 score++;
 
             }
-          //  if (num1 < num2)//PcWin
-            {
-                score--;
-            }
-           // if (num1 == num2)//Tie
             {
                 totalWar();
             }
