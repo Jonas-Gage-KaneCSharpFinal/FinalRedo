@@ -24,6 +24,8 @@ namespace cSharpFinalFix
             SoundPlayer splayer = new SoundPlayer(cSharpFinalFix.Properties.Resources.Clashing);
             splayer.Play();
             CardArray();
+
+                picAceClubs.BringToFront();
         }
         public void CardArray()//Array For card choosing
         {
@@ -34,18 +36,18 @@ namespace cSharpFinalFix
             Random rnd = new Random();//rnd#gen for pc
 
             lblCount.Text = "" + score;
-           // int x = 0;
+            // int x = 0;
             //if (num1 > num2)//PlayerWin
             {
-                
+
                 score++;
 
             }
-          //  if (num1 < num2)//PcWin
+            //  if (num1 < num2)//PcWin
             {
                 score--;
             }
-           // if (num1 == num2)//Tie
+            // if (num1 == num2)//Tie
             {
                 totalWar();
             }
@@ -78,17 +80,8 @@ namespace cSharpFinalFix
                 totalWar();
             }
 
-
-        }
-
-        private void pictureBox23_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox14_Click(object sender, EventArgs e)
-        {
-
+           
+        
         }
     }
 }
