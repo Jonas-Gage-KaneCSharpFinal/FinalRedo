@@ -27,25 +27,25 @@ namespace cSharpFinalFix
         }
         public void CardArray()//Array For card choosing
         {
-
+            int[] playersCards = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 };//ArrayForPlayer
 
             Random rand = new Random();//rnd#gen for player
             int num1 = rand.Next(playersCards.Length);
             Random rnd = new Random();//rnd#gen for pc
 
             lblCount.Text = "" + score;
-            int x = 0;
-            if (num1 > num2)//PlayerWin
+           // int x = 0;
+            //if (num1 > num2)//PlayerWin
             {
                 
                 score++;
 
             }
-            if (num1 < num2)//PcWin
+          //  if (num1 < num2)//PcWin
             {
                 score--;
             }
-            if (num1 == num2)//Tie
+           // if (num1 == num2)//Tie
             {
                 totalWar();
             }
@@ -53,9 +53,9 @@ namespace cSharpFinalFix
         public void totalWar()
         {
 
-            int[] playersCards = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 };//ArrayForPlayer
-            int[] pcCards = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 };//ArraryForComputer
-            PictureBox[] pictures = { pictureBox1, pictureBox2, pictureBox3, pictureBox4 };
+            int[] playersCards = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 };//ArrayForPlayer
+            int[] pcCards = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 };//ArraryForComputer
+            //PictureBox[] pictures = { pictureBox1, pictureBox2, pictureBox3, pictureBox4 };
             int warScore = 6;
 
             Random rand = new Random();//rnd#gen for player
@@ -81,6 +81,14 @@ namespace cSharpFinalFix
 
         }
 
+        private void pictureBox23_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
