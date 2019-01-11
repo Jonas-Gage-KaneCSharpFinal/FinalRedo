@@ -24,6 +24,8 @@ namespace cSharpFinalFix
             SoundPlayer splayer = new SoundPlayer(cSharpFinalFix.Properties.Resources.Clashing);
             splayer.Play();
             CardArray();
+
+                picAceClubs.BringToFront();
         }
         public void CardArray()//Array For card choosing
         {
@@ -35,10 +37,11 @@ namespace cSharpFinalFix
 
 
             {
-                
+
                 score++;
 
             }
+
             {
                 totalWar();
             }
@@ -71,17 +74,8 @@ namespace cSharpFinalFix
                 totalWar();
             }
 
-
-        }
-
-        private void pictureBox23_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox14_Click(object sender, EventArgs e)
-        {
-
+           
+        
         }
     }
 }
