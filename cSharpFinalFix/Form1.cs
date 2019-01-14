@@ -21,11 +21,11 @@ namespace cSharpFinalFix
 
         public void btnDraw_Click(object sender, EventArgs e)//Main Button Click
         {
+
             SoundPlayer splayer = new SoundPlayer(cSharpFinalFix.Properties.Resources.Clashing);
             splayer.Play();
-            CardArray();
+            //CardArray();
 
-            picAceClubs.BringToFront();
         }
         public void CardArray()//Array For card choosing
         {
@@ -34,17 +34,8 @@ namespace cSharpFinalFix
             Random rand = new Random();//rnd#gen for player
             int num1 = rand.Next(playersCards.Length);
             Random rnd = new Random();//rnd#gen for pc
+            Cards();
 
-
-            {
-
-                score++;
-
-            }
-
-            {
-                totalWar();
-            }
         }
         public void totalWar()
         {
@@ -72,7 +63,12 @@ namespace cSharpFinalFix
             {
                 warScore = warScore + 6;
                 totalWar();
-            }
+            }          
+        }
+        public void Cards()
+        {
+            Random rand = new Random();
+            int card = rand.Next(1, 52);
 
             double picAceClubs = 1;
             picAceClubs = Convert.ToDouble(picAceClubs);
@@ -209,25 +205,25 @@ namespace cSharpFinalFix
             double pic4Hearts = 45;
             pic4Hearts = Convert.ToDouble(pic4Hearts);
 
-            double pic4Diamonds = 44;
+            double pic4Diamonds = 46;
             pic4Diamonds = Convert.ToDouble(pic4Diamonds);
 
-            double pic4Spades = 45;
+            double pic4Spades = 47;
             pic4Spades = Convert.ToDouble(pic4Spades);
 
-            double pic4Clubs = 46;
+            double pic4Clubs = 48;
             pic4Clubs = Convert.ToDouble(pic4Clubs);
 
-            double pic10Spades = 47;
+            double pic10Spades = 49;
             pic10Spades = Convert.ToDouble(pic10Spades);
 
-            double pic10Hearts = 48;
+            double pic10Hearts = 50;
             pic10Hearts = Convert.ToDouble(pic10Hearts);
 
-            double pic10Diamonds = 49;
+            double pic10Diamonds = 51;
             pic10Diamonds = Convert.ToDouble(pic10Diamonds);
 
-            double pic10Clubs = 50;
+            double pic10Clubs = 52;
             pic10Clubs = Convert.ToDouble(pic10Clubs);
 
 
