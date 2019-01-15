@@ -164,7 +164,7 @@
             // ptcBoxRedTeam
             // 
             this.ptcBoxRedTeam.Image = global::cSharpFinalFix.Properties.Resources.RedCardBack;
-            this.ptcBoxRedTeam.Location = new System.Drawing.Point(104, 69);
+            this.ptcBoxRedTeam.Location = new System.Drawing.Point(104, 63);
             this.ptcBoxRedTeam.Name = "ptcBoxRedTeam";
             this.ptcBoxRedTeam.Size = new System.Drawing.Size(199, 269);
             this.ptcBoxRedTeam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -174,7 +174,7 @@
             // ptcBoxBlueTeam
             // 
             this.ptcBoxBlueTeam.Image = global::cSharpFinalFix.Properties.Resources.BlueCardBack;
-            this.ptcBoxBlueTeam.Location = new System.Drawing.Point(332, 63);
+            this.ptcBoxBlueTeam.Location = new System.Drawing.Point(334, 68);
             this.ptcBoxBlueTeam.Name = "ptcBoxBlueTeam";
             this.ptcBoxBlueTeam.Size = new System.Drawing.Size(199, 269);
             this.ptcBoxBlueTeam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -216,7 +216,7 @@
             this.pic6Spades.Image = global::cSharpFinalFix.Properties.Resources._6_of_spades;
             this.pic6Spades.Location = new System.Drawing.Point(104, 68);
             this.pic6Spades.Name = "pic6Spades";
-            this.pic6Spades.Size = new System.Drawing.Size(199, 269);
+            this.pic6Spades.Size = new System.Drawing.Size(199, 264);
             this.pic6Spades.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic6Spades.TabIndex = 9;
             this.pic6Spades.TabStop = false;
@@ -236,7 +236,7 @@
             this.pic6Diamonds.Image = global::cSharpFinalFix.Properties.Resources._6_of_diamonds;
             this.pic6Diamonds.Location = new System.Drawing.Point(104, 68);
             this.pic6Diamonds.Name = "pic6Diamonds";
-            this.pic6Diamonds.Size = new System.Drawing.Size(199, 269);
+            this.pic6Diamonds.Size = new System.Drawing.Size(199, 264);
             this.pic6Diamonds.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic6Diamonds.TabIndex = 11;
             this.pic6Diamonds.TabStop = false;
@@ -266,7 +266,7 @@
             this.pic5Hearts.Image = global::cSharpFinalFix.Properties.Resources._5_of_hearts;
             this.pic5Hearts.Location = new System.Drawing.Point(104, 68);
             this.pic5Hearts.Name = "pic5Hearts";
-            this.pic5Hearts.Size = new System.Drawing.Size(199, 269);
+            this.pic5Hearts.Size = new System.Drawing.Size(199, 264);
             this.pic5Hearts.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic5Hearts.TabIndex = 14;
             this.pic5Hearts.TabStop = false;
@@ -276,7 +276,7 @@
             this.pic5Diamonds.Image = global::cSharpFinalFix.Properties.Resources._5_of_diamonds;
             this.pic5Diamonds.Location = new System.Drawing.Point(104, 68);
             this.pic5Diamonds.Name = "pic5Diamonds";
-            this.pic5Diamonds.Size = new System.Drawing.Size(199, 269);
+            this.pic5Diamonds.Size = new System.Drawing.Size(199, 264);
             this.pic5Diamonds.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic5Diamonds.TabIndex = 15;
             this.pic5Diamonds.TabStop = false;
@@ -346,7 +346,7 @@
             this.pic3Hearts.Image = global::cSharpFinalFix.Properties.Resources._3rd_of_hearts;
             this.pic3Hearts.Location = new System.Drawing.Point(108, 68);
             this.pic3Hearts.Name = "pic3Hearts";
-            this.pic3Hearts.Size = new System.Drawing.Size(186, 269);
+            this.pic3Hearts.Size = new System.Drawing.Size(186, 264);
             this.pic3Hearts.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic3Hearts.TabIndex = 22;
             this.pic3Hearts.TabStop = false;
@@ -356,7 +356,7 @@
             this.pic3Diamonds.Image = global::cSharpFinalFix.Properties.Resources._3rd_of_diamonds;
             this.pic3Diamonds.Location = new System.Drawing.Point(104, 68);
             this.pic3Diamonds.Name = "pic3Diamonds";
-            this.pic3Diamonds.Size = new System.Drawing.Size(186, 269);
+            this.pic3Diamonds.Size = new System.Drawing.Size(186, 264);
             this.pic3Diamonds.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic3Diamonds.TabIndex = 23;
             this.pic3Diamonds.TabStop = false;
@@ -366,7 +366,7 @@
             this.pic3Clubs.Image = global::cSharpFinalFix.Properties.Resources._3_clubs;
             this.pic3Clubs.Location = new System.Drawing.Point(108, 74);
             this.pic3Clubs.Name = "pic3Clubs";
-            this.pic3Clubs.Size = new System.Drawing.Size(199, 264);
+            this.pic3Clubs.Size = new System.Drawing.Size(195, 258);
             this.pic3Clubs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic3Clubs.TabIndex = 24;
             this.pic3Clubs.TabStop = false;
