@@ -21,11 +21,113 @@ namespace cSharpFinalFix
 
         public void btnDraw_Click(object sender, EventArgs e)//Main Button Click
         {
+
             SoundPlayer splayer = new SoundPlayer(cSharpFinalFix.Properties.Resources.Clashing);
             splayer.Play();
-            CardArray();
+            //CardArray();
 
-            picAceClubs.BringToFront();
+            Random rand = new Random();
+            int card = rand.Next(1, 52);
+            if (card == 1)
+                picAceClubs.BringToFront();
+            else if (card == 2)
+                picAceDiamonds.BringToFront();
+            else if (card == 3)
+                picAceSpades.BringToFront();
+            else if (card == 4)
+                picJackHearts.BringToFront();
+            else if (card == 5)
+                picJackDiamonds.BringToFront();
+            else if (card == 6)
+                picJackClubs.BringToFront();
+            else if (card == 7)
+                picJackSpades.BringToFront();
+            else if (card == 8)
+                picQueenofhearts.BringToFront();
+            else if (card == 9)
+                picQueenOfSpades.BringToFront();
+            else if (card == 10)
+                picQueenOfClubs.BringToFront();
+            else if (card == 11)
+                picQueenOfDiamonds.BringToFront();
+            else if (card == 12)
+                pic2heats.BringToFront();
+            else if (card == 13)
+                pic2Diamonds.BringToFront();
+            else if (card == 14)
+                pic2Clubs.BringToFront();
+            else if (card == 15)
+                pic2Spades.BringToFront();
+            else if (card == 16)
+                pic3Hearts.BringToFront();
+            else if (card == 17)
+                pic3Clubs.BringToFront();
+            else if (card == 18)
+                pic3Diamonds.BringToFront();
+            else if (card == 19)
+                pic3Spades.BringToFront();
+            else if (card == 20)
+                picKingOfHearts.BringToFront();
+            else if (card == 21)
+                picKingOfSpades.BringToFront();
+            else if (card == 22)
+                picKingOfDiamonds.BringToFront();
+            else if (card == 23)
+                picKingOfClubs.BringToFront();
+            else if (card == 24)
+                pic9Hearts.BringToFront();
+            else if (card == 25)
+                pic9Clubs.BringToFront();
+            else if (card == 26)
+                pic9Diamonds.BringToFront();
+            else if (card == 27)
+                pic8diamonds.BringToFront();
+            else if (card == 28)
+                pic8Hearts.BringToFront();
+            else if (card == 29)
+                pic8Spades.BringToFront();
+            else if (card == 30)
+                pic8Clubs.BringToFront();
+            else if (card == 31)
+                pic7Diamonds.BringToFront();
+            else if (card == 32)
+                pic7Hearts.BringToFront();
+            else if (card == 33)
+                pic7Spades.BringToFront();
+            else if (card == 34)
+                pic7Clubs.BringToFront();
+            else if (card == 35)
+                pic6Diamonds.BringToFront();
+            else if (card == 36)
+                pic6Hearts.BringToFront();
+            else if (card == 37)
+                pic6Spades.BringToFront();
+            else if (card == 38)
+                pic6Clubs.BringToFront();
+            else if (card == 39)
+                pic5Hearts.BringToFront();
+            else if (card == 40)
+                pic5Diamonds.BringToFront();
+            else if (card == 41)
+                pic5Spades.BringToFront();
+            else if (card == 42)
+                pic5Clubs.BringToFront();
+            else if (card == 43)
+                pic4Hearts.BringToFront();
+            else if (card == 44)
+                pic4Diamonds.BringToFront();
+            else if (card == 45)
+                pic4Spades.BringToFront();
+            else if (card == 46)
+                pic4Clubs.BringToFront();
+            else if (card == 47)
+                pic10Spades.BringToFront();
+            else if (card == 48)
+                pic10Hearts.BringToFront();
+            else if (card == 49)
+                pic10Clubs.BringToFront();
+            
+            
         }
         public void CardArray()//Array For card choosing
         {
@@ -34,17 +136,8 @@ namespace cSharpFinalFix
             Random rand = new Random();//rnd#gen for player
             int num1 = rand.Next(playersCards.Length);
             Random rnd = new Random();//rnd#gen for pc
+            Cards();
 
-
-            {
-
-                score++;
-
-            }
-
-            {
-                totalWar();
-            }
         }
         public void totalWar()
         {
@@ -72,164 +165,18 @@ namespace cSharpFinalFix
             {
                 warScore = warScore + 6;
                 totalWar();
+            }          
+        }
+        public void Cards()
+        {
+            Random rand = new Random();
+            int card = rand.Next(1, 52);
+            if (card == 1)
+            {
+
+                double picAceClubs = 1;
+                picAceClubs = Convert.ToDouble(picAceClubs);
             }
-
-            double picAceClubs = 1;
-            picAceClubs = Convert.ToDouble(picAceClubs);
-
-            double picAceDiamonds = 2;
-            picAceDiamonds = Convert.ToDouble(picAceDiamonds);
-
-            double picAceSpades = 3;
-            picAceSpades = Convert.ToDouble(picAceSpades);
-
-            double picAceHearts = 4;
-            picAceHearts = Convert.ToDouble(picAceHearts);
-
-            double picJackHearts = 5;
-            picJackHearts = Convert.ToDouble(picJackHearts);
-
-            double picJackDiamonds = 6;
-            picJackDiamonds = Convert.ToDouble(picJackDiamonds);
-
-            double picJackClubs = 7;
-            picJackClubs = Convert.ToDouble(picJackClubs);
-
-            double picJackSpades = 8;
-            picJackSpades = Convert.ToDouble(picJackSpades);
-
-            double picQueenHearts = 9;
-            picQueenHearts = Convert.ToDouble(picQueenHearts);
-
-            double picQueenSpades = 10;
-            picQueenSpades = Convert.ToDouble(picQueenSpades);
-
-            double picQueenClubs = 11;
-            picQueenClubs = Convert.ToDouble(picQueenClubs);
-
-            double picQueenDiamonds = 12;
-            picQueenDiamonds = Convert.ToDouble(picQueenDiamonds);
-
-            double pic2Hearts = 13;
-            pic2Hearts = Convert.ToDouble(pic2Hearts);
-
-            double pic2Diamonds = 14;
-            pic2Diamonds = Convert.ToDouble(pic2Diamonds);
-
-            double pic2Clubs = 15;
-            pic2Clubs = Convert.ToDouble(pic2Clubs);
-
-            double pic2Spades = 16;
-            pic2Spades = Convert.ToDouble(pic2Spades);
-
-            double pic3Hearts = 17;
-            pic3Hearts = Convert.ToDouble(pic3Hearts);
-
-            double pic3Clubs = 18;
-            pic3Clubs = Convert.ToDouble(pic3Clubs);
-
-            double pic3Diamonds = 19;
-            pic3Diamonds = Convert.ToDouble(pic3Diamonds);
-
-            double pic3Spades = 20;
-            pic3Spades = Convert.ToDouble(pic3Spades);
-
-            double picKingOfHearts = 21;
-            picKingOfHearts = Convert.ToDouble(picKingOfHearts);
-
-            double picKingOfSpades = 22;
-            picKingOfSpades = Convert.ToDouble(picKingOfSpades);
-
-            double picKingOfDiamonds = 23;
-            picKingOfDiamonds = Convert.ToDouble(picKingOfDiamonds);
-
-            double picKingOfClubs = 24;
-            picKingOfClubs = Convert.ToDouble(picKingOfClubs);
-
-            double pic9Spades = 25;
-            pic9Spades = Convert.ToDouble(pic9Spades);
-
-            double pic9Hearts = 26;
-            pic9Hearts = Convert.ToDouble(pic9Hearts);
-
-            double pic9Clubs = 27;
-            pic9Clubs = Convert.ToDouble(pic9Clubs);
-
-            double pic9Diamonds = 28;
-            pic9Diamonds = Convert.ToDouble(pic9Diamonds);
-
-            double pic8Diamonds = 29;
-            pic8Diamonds = Convert.ToDouble(pic8Diamonds);
-
-            double pic8Hearts = 30;
-            pic8Hearts = Convert.ToDouble(pic8Hearts);
-
-            double pic8Spades = 31;
-            pic8Spades = Convert.ToDouble(pic8Spades);
-
-            double pic8Clubs = 32;
-            pic8Clubs = Convert.ToDouble(pic8Clubs);
-
-            double pic7Diamonds = 33;
-            pic7Diamonds = Convert.ToDouble(pic7Diamonds);
-
-            double pic7Hearts = 34;
-            pic7Hearts = Convert.ToDouble(pic7Hearts);
-
-            double pic7Spades = 35;
-            pic7Spades = Convert.ToDouble(pic7Spades);
-
-            double pic7Clubs = 36;
-            pic7Clubs = Convert.ToDouble(pic7Clubs);
-
-            double pic6Diamonds = 37;
-            pic6Diamonds = Convert.ToDouble(pic6Diamonds);
-
-            double pic6Hearts = 38;
-            pic6Hearts = Convert.ToDouble(pic6Hearts);
-
-            double pic6Spades = 39;
-            pic6Spades = Convert.ToDouble(pic6Spades);
-
-            double pic6Clubs = 40;
-            pic6Clubs = Convert.ToDouble(pic6Clubs);
-
-            double pic5Hearts = 41;
-            pic5Hearts = Convert.ToDouble(pic5Hearts);
-
-            double pic5Diamonds = 42;
-            pic5Diamonds = Convert.ToDouble(pic5Diamonds);
-
-            double pic5Spades = 43;
-            pic5Spades = Convert.ToDouble(pic5Spades);
-
-            double pic5Clubs = 44;
-            pic5Clubs = Convert.ToDouble(pic5Clubs);
-
-            double pic4Hearts = 45;
-            pic4Hearts = Convert.ToDouble(pic4Hearts);
-
-            double pic4Diamonds = 44;
-            pic4Diamonds = Convert.ToDouble(pic4Diamonds);
-
-            double pic4Spades = 45;
-            pic4Spades = Convert.ToDouble(pic4Spades);
-
-            double pic4Clubs = 46;
-            pic4Clubs = Convert.ToDouble(pic4Clubs);
-
-            double pic10Spades = 47;
-            pic10Spades = Convert.ToDouble(pic10Spades);
-
-            double pic10Hearts = 48;
-            pic10Hearts = Convert.ToDouble(pic10Hearts);
-
-            double pic10Diamonds = 49;
-            pic10Diamonds = Convert.ToDouble(pic10Diamonds);
-
-            double pic10Clubs = 50;
-            pic10Clubs = Convert.ToDouble(pic10Clubs);
-
 
         }
     }
