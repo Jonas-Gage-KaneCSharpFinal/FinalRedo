@@ -83,6 +83,7 @@
             this.pic8diamonds = new System.Windows.Forms.PictureBox();
             this.pic8Clubs = new System.Windows.Forms.PictureBox();
             this.pic7Spades = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxRedTeam)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptcBoxBlueTeam)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic7Diamonds)).BeginInit();
@@ -692,6 +693,19 @@
             this.pic7Spades.TabIndex = 58;
             this.pic7Spades.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::cSharpFinalFix.Properties.Resources.Quit;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(492, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 48);
+            this.button1.TabIndex = 59;
+            this.button1.Text = "Quit";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -699,6 +713,7 @@
             this.BackgroundImage = global::cSharpFinalFix.Properties.Resources.WarImage;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(622, 469);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblCount);
             this.Controls.Add(this.ptcBoxBlueTeam);
             this.Controls.Add(this.ptcBoxRedTeam);
@@ -869,6 +884,7 @@
         private System.Windows.Forms.PictureBox pic8diamonds;
         private System.Windows.Forms.PictureBox pic8Clubs;
         private System.Windows.Forms.PictureBox pic7Spades;
+        private System.Windows.Forms.Button button1;
     }
 }
 
