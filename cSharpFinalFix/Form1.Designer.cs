@@ -180,7 +180,6 @@
             this.ptcBoxBlueTeam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptcBoxBlueTeam.TabIndex = 5;
             this.ptcBoxBlueTeam.TabStop = false;
-            this.ptcBoxBlueTeam.Visible = false;
             // 
             // lblCount
             // 
