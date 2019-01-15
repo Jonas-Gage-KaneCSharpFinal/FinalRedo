@@ -179,5 +179,11 @@ namespace cSharpFinalFix
             }
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Quit QuitFrom = new Quit();
+        }
     }
 }
