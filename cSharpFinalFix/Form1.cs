@@ -72,6 +72,7 @@ namespace cSharpFinalFix
 
             double picAceClubs = 1;
             picAceClubs = Convert.ToDouble(picAceClubs);
+            
 
             double picAceDiamonds = 2;
             picAceDiamonds = Convert.ToDouble(picAceDiamonds);
