@@ -9,5 +9,7 @@
   <li>512MB of memory</li>
   <li>1GB of storage</li>
 </ul>  
+<h1>Video</h1>
+<p>https://www.youtube.com/watch?v=dv14S8fZvXU&feature=youtu.be</p>
 <h1>Flow Chart</h1>
 <img src = "WarGameFlowChart.PNG">
